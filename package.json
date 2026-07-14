@@ -1,0 +1,14 @@
+{
+  "name": "quiz-pliz-mvp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node --watch server/native.js",
+    "build": "node --check server/native.js && node --check src/app.js",
+    "start": "node server/native.js"
+  }
+}
